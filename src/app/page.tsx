@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 export default function Home() {
 	return (
-		<main className="flex flex-col items-center w-full gap-4 justify-center mt-32">
+		<main className="h-screen flex flex-col items-center justify-center w-full gap-4 justify-center">
 			<motion.h1
 				initial={{ opacity: 0 }}
 				whileInView={{ opacity: 1 }}
@@ -33,7 +33,7 @@ export default function Home() {
 					Empowering Your Blockchain Journey<br />with Cutting-Edge Web3 Tools
 				</motion.h2>
 			</LampContainer>
-			
+
 			<Projects />
 		</main>
 	);
