@@ -1,7 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
- 
+
+@import url("https://use.typekit.net/eri7opg.css");
+
+.font-reross-quadratic {
+  font-family: "reross-quadratic", sans-serif;
+  font-style: normal;
+}
+
+.font-reross-rectangular {
+  font-family: "reross-rectangular", sans-serif;
+  font-style: normal;
+}
+
 @layer base {
   :root {
     --background: 210 8% 15%;
@@ -49,7 +61,6 @@
   }
 }
 
- 
 @layer base {
   * {
     @apply border-border;
